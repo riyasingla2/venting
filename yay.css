@@ -1,0 +1,104 @@
+body {
+
+	background-color: black;
+
+}
+
+#first {
+
+background-color: black;
+text-align: center;
+ font-family: ui-monospace;
+ font-size: 45px;
+ font-weight: bold;
+ color: white;
+
+
+
+}
+
+#fir2 {
+
+	font-size: 15px;
+}
+
+
+textarea {
+
+
+	float: centre;
+	width: 50%;
+		  height: 50%;
+		  font-size: 15px;
+		  font-family: ui-monospace;
+		  padding: 40px;
+		  line-height: 1em;
+		  border: none;
+		  top: 100px;
+
+}
+
+
+button {
+
+
+	width: 125px;
+    font-size: 16px;
+  font-weight: 610;
+    color: white;
+background-color: grey;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    border-radius: 25px 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+
+
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.typewriter{
+ font-family: monospace;
+  color: white;
+  padding-left: 30px;
+  display: block;
+}
+
+
+.typewriter-text {
+  padding-right: 10px;
+  color: #DDC792;
+  border-right: solid white 6px;
+  text-transform: lowercase;
+  animation: cursor 1s ease-in-out infinite;
+  font-weight: bold;
+}
+@keyframes cursor {
+  from { border-color: white; }
+  to { border-color: transparent; }
+}
+
+@media (max-width: 767.98px) {
+  .typewriter { font-size: 35px; }
+}
+@media (min-width: 768px) {
+  .typewriter { font-size: 60px; }
+}
+
+#hehe {
+
+  font-size: 13px;
+  color: white;
+}
